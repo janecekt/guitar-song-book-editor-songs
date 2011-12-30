@@ -1,0 +1,8 @@
+body { font-family: Times, serif; font-size: 100%; background-color: white; }
+.title { font-size: 200%; margin-bottom: 10px; }
+.transpose { color: green; }
+A:link    { FONT-FAMILY: Arial, sans-serif; FONT-SIZE: 100%; COLOR: #ff9900;}
+A:visited { FONT-FAMILY: Arial, sans-serif; FONT-SIZE: 100%; COLOR: #ff9900;}						
+A:hover   { FONT-FAMILY: Arial, sans-serif; FONT-SIZE: 100%; FONT-WEIGHT: bold; COLOR: #ff6600;}
+.verse { margin-top: 20px; margin-bottom: 20px; }
+.chord { color: black; font-weight: bold; vertical-align: super; }

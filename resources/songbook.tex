@@ -1,0 +1,53 @@
+% Document Class
+\documentclass[11pt,a4paper,twoside]{report}
+\usepackage[utf8]{inputenc}
+
+% Disable indentation
+\parindent=0cm
+
+
+% Style customization
+\usepackage[left=3cm,top=1cm,bottom=1cm,right=1cm,nohead,nofoot]{geometry}
+\usepackage{multicol}
+
+
+% Knihovna pro pdf
+\ifx\pdfoutput\undefined
+ \usepackage[ps2pdf,bookmarksopen]{hyperref}
+ \usepackage{pspicture}
+\else
+ \usepackage[final]{pdfpages}
+ \usepackage[bookmarksopen]{hyperref}
+\fi 
+\hypersetup{ pdftitle={Songbook}, pdfauthor={Tomas Janecek} }
+
+
+
+
+% Song Relate Styles
+\newenvironment{song}[1]{\section*{#1}\addcontentsline{toc}{section}{#1}}{\clearpage}
+%\newenvironment{song}[1]{\section*{#1}\addcontentsline{toc}{section}{#1}\begin{multicols}{2}}{\end{multicols}\clearpage}
+
+\newenvironment{songverse}{ \vspace{0.5cm} }{}
+%\newenvironment{songverse}{ \begin{verse} }{ \end{verse}}
+
+\newcommand{\chord}[1]{ \mbox{\raisebox{1.5ex}{\textsf{\textbf{#1}}}\raisebox{4ex}{}} }
+%\newcommand{\chord}[1]{ }
+
+
+
+% == Beginning of document == %
+\begin{document}
+
+% Obsah
+\tableofcontents
+\vfill
+First Edition - 2007
+\cleardoublepage
+
+% Song content
+%xxx \chord{D\#} xxx
+
+\input{../latex/allsongs.tex}
+
+\end{document}
