@@ -1,15 +1,15 @@
-x Under The Bridge - Red Hot Chilli Peppers
+Under The Bridge - Red Hot Chilli Peppers
 
 
-intro: [D] [F#]
+intro: [C] [E]
 
 
 
-[E]Sometimes I [H]feel like I [C#mi]don't have a
+[D]Sometimes I [A]feel like I [Hmi]don't have a
 
-[G#mi]part[A]ner
+[F#mi]part[G]ner
 
-[E]Sometimes I [H]feel like [C#mi]my only [A]friend
+[D]Sometimes I [A]feel like [Hmi]my only [G]friend
 
 is the City I live in the city of angels
 
@@ -23,9 +23,9 @@ She sees my good deeds and she kisses me windy
 I never worry now that is a lie
 
 
-Ref:[F#mi]I don't ever want to [E]feel
+Ref:[Emi]I don't ever want to [D]feel
 
-[H]Like I [F#mi]did that day
+[A]Like I [Emi]did that day
 
 Take me to the place I love
 
@@ -50,19 +50,19 @@ Lonely as I am together we cry
 Ref:
 
 
-[C]Yea [G6]yea [Fmaj7]yea
+[B]Yea [F6]yea [Esmaj7]yea
 
-[A]Oh [C]no no no [G6]yea [Fmaj7]yea
+[G]Oh [B]no no no [F6]yea [Esmaj7]yea
 
 Love me I say yea yea
 
-(spoken) [F]One [E]time
+(spoken) [Es]One [D]time
 
 
 
-[A]Under the bridge down-[C]town
+[G]Under the bridge down-[B]town
 
-[G6]Is where I [Fmaj7]drew some blood
+[F6]Is where I [Esmaj7]drew some blood
 
 Under the bridge down-town
 
@@ -78,9 +78,9 @@ I gave my life away...
 
 
 
-outro:[A] [C] [G6] [Fmaj7](4x)
+outro:[G] [B] [F6] [Esmaj7](4x)
 
-[A]
+[G]
 
 
 
