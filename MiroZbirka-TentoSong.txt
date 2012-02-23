@@ -4,7 +4,6 @@ zz Tento Song - Miro Žbirka
 intro: [D], [Hm], [G], [A] 2x
 
 
-
 [D] Tento song èo [Hmi] práve hrám 
 
 [G] Berie krídla [A] všetkým zlám 
@@ -22,15 +21,13 @@ intro: [D], [Hm], [G], [A] 2x
 [A] Pieseò o nás [D] dvoch 
 
 
-
 [G] Viem, že máš [D] správny liek 
 
-[G] Koniec [D] piluliek	
+[G] Koniec [D] piluliek
 
 [G]Noc aj tiaž [D] tuhých zím
 
 [G] S tebou [D]porazím 
-
 
 
 Tenhle song co právì zní
@@ -44,7 +41,7 @@ Jiste dobøe víš
 
 
 Viem, že máš správny liek 
-Koniec piluliek	
+Koniec piluliek
 Noc aj tiaž tuhých zím
 S tebou porazím 
 
@@ -59,5 +56,3 @@ Smutek zmizí v nás
 Jiste dobøe víš
 Že si ke mne blíž
 Jiste dobøe víš
-
-
