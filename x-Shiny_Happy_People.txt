@@ -1,8 +1,7 @@
-x Shiny Happy People - R.E.M.
+zz Shiny Happy People - R.E.M.
 
 
 Intro: [G] [Em] [Hm] [C] [G] [Em] [Hm] [C]
-
 
 
 Shiny happy people laughing.
@@ -16,7 +15,6 @@ Take it into town. Happy, happy.
 Put it in the ground where the flowers grow.
 
 [G]Gold and silver shine.[E] [E7]
-
 
 
 Shiny happy people holding hands.
@@ -44,5 +42,3 @@ Shiny happy people holding hands
 Shiny happy people laughing
 People, happy people
 People, happy people
-
-

@@ -15,23 +15,27 @@ a v hlavì jsou zmatky
 
 [G]den zaène veèeøí
 
-[Am]pozpátku bìží [Dm]èas [G]
-
-[Am]pozpátku bìží [Dm]èas
+|: [Am]pozpátku bìží [Dm]èas [G] :|
 
 
+[Dm]Film jede pozpátku
 
-Film jede pozpátku
 míè bìží do schodù
-já s kytkou za tebou
-jdu plnej rozpakù
-z rozvalin vstává dùm
+
+[G]já s kytkou za tebou
+
+[Am]jdu plnej rozpakù
+
+[Dm]z rozvalin vstává dùm
+
 pøíchody z odchodù
-v tom filmu rychle jsou
-listí je z tabáku
+
+[G]v tom filmu rychle jsou
+
+|: [Am]listí je z tabá[Dm]ku [G] :|
 
 
-[B]všechno jako film se [Dm]vrací
+REF: [B]všechno jako film se [Dm]vrací
 
 [B]z louží vstávaj snìhu [Dm]láci
 
@@ -46,25 +50,27 @@ listí je z tabáku
 [B]a ty zas øíkáš mám tì [Dm]ráda [A]
 
 
+[Dm]Ze støepù okna jsou mou zradu necítíš
 
-Ze støepù okna jsou
-mou zradu necítíš
-cáry z mejch dopisù
-skládaj se do stránek
-z chodníku zmrzlina
-do ruky skoèí ti
-vrátíš ji v cukrárnì
-a drobný dostaneš
-a drobný dostaneš
+[G]cáry z mejch dopisù
 
+[Am]skládaj se do stránek
 
-Pozpátku spolu jdem
-po noèním nábøeží
-nejdøív je dùsledek
-a potom pøíèina
-znova se milujem
-èas náhle nebìží
-a pak tì potkávám
-náš film zaèíná
+[Dm]z chodníku zmrzlina do ruky skoèí ti
+
+[G]vrátíš ji v cukrárnì
+
+|: [Am]a drobný dosta[Dm]neš [G] :|
 
 
+[Dm]Pozpátku spolu jdem po noèním nábøeží
+
+[G]nejdøív je dùsledek
+
+[Am]a potom pøíèina
+
+[Dm]znova se milujem èas náhle nebìží
+
+[G]a pak tì potkávám
+
+|: [Am]náš film zaèí[Dm]ná [G] :|

@@ -1,4 +1,4 @@
-x Blahopøání k maturitì - Fleret
+zz Blahopøání k maturitì - Fleret
 
 
 1. [Emi]Pod okny [Emi/F#]rozložil [C]nám svoje [Emi/H]šapitó
@@ -6,7 +6,6 @@ x Blahopøání k maturitì - Fleret
 [Ami]èert ví [C]proè, ale vždyc[Emi/H]ky má nabito[Emi/G]
 
 cirkus [Emi]vítìzství, [D] remíz a ztrát[Emi], co [D]jméno má Svìt[Emi]
-
 
 
 2. Nìkdy se náhodou skvìlý trik podaøí,
@@ -25,7 +24,6 @@ pøipij s [C]tìmi, s tìmi, co's [D]míval vždycky [G]tolik rád,[Emi]
 [G]co ti na cestu štìs[Emi]tí jdou pøát.
 
 
-
 3. Šminky a zrcadlo v domeèku na kolech,
 èarodìj, klaun tu má šanci na úspìch,
 pod èernou lampou zlomená hùl, tak vem ji a bìž.
@@ -41,5 +39,3 @@ už jsi vyrostl z nesmìlých let,
 pøipij s tìmi, s tìmi, co pøichází blahopøát
 k tvému angažmá v cirkuse Svìt,
 k tvému angažmá v cirkuse Svìt ...
-
-

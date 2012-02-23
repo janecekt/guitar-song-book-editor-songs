@@ -1,4 +1,4 @@
-zz Mùj pes - Jaromír Nohavica 
+Mùj pes - Jaromír Nohavica 
 
 
 [A]Mùj [E]pes je [F#mi]gróf [E]mezi psy, 
@@ -14,7 +14,6 @@ Mùj [E]pes je [F#mi]psem [E]z Anglie,
 [A]hod[E]ný na [F#mi]hodné [E]lidi je [D]a zlý je [E]na obej[A]dy.
 
 
-
 ®: [D]Mùj [E]pes má [A]duši, [D]ètyøi nohy, [E]ocas a [A]uši,
 
 [D]velké [E]chlupaté [A]tìlo, [H]krásné, chytré, ale tvrdohlavé [E]èelo,
@@ -24,22 +23,25 @@ Mùj [E]pes je [F#mi]psem [E]z Anglie,
 [D]jinak se [E]chová [A]vhodnì, [Hmi]já ho [E]miluji [A]hodnì.
 
 
+[A]Mùj [E]pes je [F#m]psí [E]prototyp,
 
-Mùj pes je psí prototyp,
-on modelem být mohl psímu sousoší,
-od pondìlí do soboty prolenoší.
-Mùj pes je rek - hrdina,
-bìda lumpovi, jenž by na práh šláp',
-slupnut by byl jako malina, á, ten chlap.
+[A]on [Hm]modelem [E]být mohl psímu souso[A]ší,
+
+od [E]pondìlí [F#m]do [E]soboty [D] [E] proleno[A]ší.
+
+Mùj [E]pes je [F#m]rek - [E]hrdina,
+
+[A]bìda [Hm]lumpovi, [E]jenž by na práh [A]šláp',
+
+slup[E]nut by [F#m]byl jako [E]malina, [D]á, ten [E]chlap. [A]
 
 
-®: Mùj pes má sílu, jak se má k jídlu, tak i k dílu,
-pelech má u kredence, vysoké je inteligence,
-jí jenom maso a kosti, kouše debilní hosti,
-jinak se chová vhodnì, já ho miluji hodnì.
+®: [D]Mùj [E]pes má [A]sílu, [D]jak se má [E]k jídlu, tak i [A]k dílu,
 
+[D]pelech má [E]u kre[A]dence, [H]vysoké je [E]inteligence,
+
+[D]jí jenom [E]maso a [A]kosti, [D]kouše [E]debilní [A]hosti,
+
+[D]jinak se [E]chová [A]vhodnì, a [Hm]já ho [E]miluji [A]hodnì.
 
 My [A]dog [E]is dog  [F#mi]num[E]ber one yeah [A]...
-
-
-

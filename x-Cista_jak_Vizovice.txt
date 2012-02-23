@@ -1,4 +1,4 @@
-x Èistá jak Vizovice - Fleret
+zz Èistá jak Vizovice - Fleret
 
 
 1.[Ami]Vyzvonil jsem [E]tajemst[Ami]ví
@@ -8,7 +8,6 @@ x Èistá jak Vizovice - Fleret
 [Dmi]jsi èistá [E]jak Vizovice -
 
 [Ami]uchazeèù [E]bude [Ami]více.
-
 
 
 2. Zvìsti všude kolují,
@@ -26,7 +25,6 @@ hej  [F]drin[E, Ami]hej  [F]drin[E] [Ami]
 [Dmi]kde je voda [E]na tvùj [Ami]mlýn ?
 
 
-
 3. Po vizovském námìstí
 huby nesou tajemství,
 že èistá jak Vizovice
@@ -40,6 +38,3 @@ hej  [F]drin[E, Ami]hej  [F]drin[E], [Ami]
 [Ami]èistá jak [E]Vizo[Ami]vice, [C]èistá jak [G]Vizo[C]vice,
 
 [Dmi]kdo byl voda [E]na tvùj [Ami]mlýn ?
-
-
-
