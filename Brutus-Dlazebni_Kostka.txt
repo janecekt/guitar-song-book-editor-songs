@@ -1,0 +1,16 @@
+Dlažební kostka - Brutus
+
+
+[A]Šel pes do lesa a potkal dlažební kostku
+
+[D]Šel pes do lesa a potkal dlažební [A]kostku
+
+[E]Dlažební kostko [D]kam jdeš
+
+Já jdu [A]do lesa[E]
+
+
+Dlažební kostko vždyt ty nemáš nohy
+Dlažební kostko vždyt ty nemáš nohy
+Já nemám nohy
+Ale ty máš parohy
