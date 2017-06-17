@@ -18,8 +18,8 @@ GunsNRoses-Dont_Cry.txt
 Adams-Everything_I_Do.txt
 Film-Falling_Slowly.txt
 Lennon-Happy_Christmas.txt
-Film-Halelujah.txt
 Nohavica-Hlidac_Krav.txt
+Film-Halelujah.txt
 Film-I_am_a_Believer.txt
 Beatles-Imagine.txt
 Film-In_The_Jungle.txt
@@ -49,8 +49,8 @@ Klus-Marie.txt
 Lucie-Medvidek.txt
 TriSestry-Mexico.txt
 Kabat-Moderni_Devce.txt
-Nohavica-Milionar.txt
 Nohavica-MujPes.txt
+Nohavica-Milionar.txt
 Nohavica-Muzeum.txt
 Hlas-Na_kolena.txt
 Ledecky-Na_pataky_jsme_kratky.txt
@@ -80,8 +80,8 @@ ZlutejPes-Sametova.txt
 Hapka-Saskove_pocmarani.txt
 Hapka-S_cizi_zenou_v_cizim_pokoji.txt
 Film-Sladke_mameni.txt
-StoZvirat-Sklola.txt
 BlueEffect-Slunecni_hrob.txt
+StoZvirat-Sklola.txt
 Olympic-Slzy_tvy_mamy.txt
 Adele-Someone_Like_You.txt
 TriSestry-Sovy_v_mazutu.txt
@@ -133,10 +133,12 @@ KarelKryl-Morituri_te_salutant.txt
 Brutus-Prvni-Polibek.txt
 MarekZtraceny-Sex_s_ex.txt
 Mig-Splepic_pirka.txt
-MarieRottrova-To_mam_tak_rada.txt
 KrelGott-Trezor.txt
+MarieRottrova-To_mam_tak_rada.txt
 MartaKubisova-Zdivocela_zeme.txt
 MagaAZdorp-Hodinovy_hotel.txt
+Kabat-Buldozerem.txt
+MichalDavid-Ja_si_koupim_klavir.txt
 DaliborJanda-Kde_jsi.txt
 MarieRottrova-Zrejme_letos_nikde_nejsou_kytky.txt
 Kamelot-Zachrante_kone.txt
@@ -158,3 +160,5 @@ Qecko-SvatyMartin.txt
 BonnieTyler-TotalEclipseOfTheHeart.txt
 RighteousBrothers-Unchained_Melody.txt
 Offspring-WhyDontYouGetAJob.txt
+Lucie-ChciZasVTobeSpat.txt
+RayCharles-HitTheRoadJack.txt
