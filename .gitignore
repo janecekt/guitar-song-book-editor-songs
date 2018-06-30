@@ -3,5 +3,6 @@ html
 latex
 pdf
 epub
+json
 tmp
 *.zip
