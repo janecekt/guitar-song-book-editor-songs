@@ -137,8 +137,6 @@ KrelGott-Trezor.txt
 MarieRottrova-To_mam_tak_rada.txt
 MartaKubisova-Zdivocela_zeme.txt
 MagaAZdorp-Hodinovy_hotel.txt
-Kabat-Buldozerem.txt
-MichalDavid-Ja_si_koupim_klavir.txt
 DaliborJanda-Kde_jsi.txt
 MarieRottrova-Zrejme_letos_nikde_nejsou_kytky.txt
 Kamelot-Zachrante_kone.txt
@@ -162,3 +160,15 @@ RighteousBrothers-Unchained_Melody.txt
 Offspring-WhyDontYouGetAJob.txt
 Lucie-ChciZasVTobeSpat.txt
 RayCharles-HitTheRoadJack.txt
+SverakUhlir-AniKStaru.txt
+Klus-APak.txt
+Krystof-Atentat.txt
+Mirai-KdyzNemuzesTakPridej.txt
+TomPetty-LearningToFly.txt
+Jelen-Magdalena.txt
+EwaFarna-BokyJakoSkrin.txt
+Nohavica-MamJizvuNaRtu.txt
+EdSheeren-Perfect.txt
+EmliSande-ReadAllAboutIt.txt
+XAmbasadors-Renegates.txt
+Krystof-TyAJa.txt
