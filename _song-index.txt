@@ -191,3 +191,5 @@ Klus-Sibyla.txt
 Chinaski-StejneJakoJa.txt
 GeorgeGershwin-Summertime.txt
 Lucie-Svitani.txt
+Queen-LoveOfMyLife.txt
+MelaniMartinez-Toxic.txt

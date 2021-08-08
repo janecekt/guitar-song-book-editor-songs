@@ -1,0 +1,61 @@
+stages:
+  - build
+  - release
+
+generate-songbook:
+  image: maven:3.8.1-openjdk-11
+  stage: build
+  script:
+    # Create workdir
+    - mkdir -v ${CI_PROJECT_DIR}/workdir
+    - cd ${CI_PROJECT_DIR}/workdir
+    # Download songbook-pc.jar
+    - curl -O https://gitlab.com/api/v4/projects/7109318/packages/generic/songbook-pc/latest/songbook-pc.jar
+    # Generate songbook PDF
+    - export SONGBOOK_PDF=`java -jar songbook-pc.jar ${CI_PROJECT_DIR} exportPdf`
+    - mv -v ${SONGBOOK_PDF} ${CI_PROJECT_DIR}/workdir/songbook.pdf
+    # Generate songbook JSON
+    - export SONGBOOK_JSON=`java -jar songbook-pc.jar ${CI_PROJECT_DIR} exportJson`
+    - mv -v ${SONGBOOK_JSON} ${CI_PROJECT_DIR}/workdir/songbook.json
+
+  artifacts:
+    expire_in: 4 week
+    name: songbooks
+    paths:
+      - 'workdir/songbook.pdf'
+      - 'workdir/songbook.json'
+
+
+release:
+  image: registry.gitlab.com/janecekt/docker-alpine-php7-mysql-node-chromium:20210807-e3227d41-release
+  stage: release
+  script:
+    # Determine tag
+    - export DATE=`date '+%Y%m%d'`
+    - export TAG="${DATE}-${CI_COMMIT_SHA:0:8}"
+
+    # Upload artifacts songbook.pdf
+    - 'curl -i --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file ${CI_PROJECT_DIR}/workdir/songbook.pdf "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/songbook-pdf/${TAG}/songbook-${TAG}.pdf"'
+    - 'curl -i --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file ${CI_PROJECT_DIR}/workdir/songbook.pdf "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/songbook-pdf/latest/songbook-latest.pdf"'
+
+    # Upload artifacts songbook.json
+    - 'curl -i --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file ${CI_PROJECT_DIR}/workdir/songbook.json "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/songbook-json/${TAG}/songbook-${TAG}.json"'
+    - 'curl -i --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file ${CI_PROJECT_DIR}/workdir/songbook.json "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/songbook-json/latest/songbook-latest.json"'
+
+    # Create PWA containing these songs
+    - cd ${CI_PROJECT_DIR}/workdir
+    - curl -O https://gitlab.com/api/v4/projects/7109318/packages/generic/songbook-pwa-base/latest/songbook-pwa-base.zip
+    - unzip songbook-pwa-base.zip
+    - cd ${CI_PROJECT_DIR}/workdir/songbook-pwa
+    - cp -v ${CI_PROJECT_DIR}/workdir/songbook.pdf songbook-${TAG}.pdf
+    - cp -v ${CI_PROJECT_DIR}/workdir/songbook.json songbook-${TAG}.json
+    - cp -v index.html index.html.orig
+    - cat index.html.orig | sed "s/songbook-sample.pdf/songbook-${TAG}.pdf/g" | sed "s/songbook-sample.json/songbook-${TAG}.json/g" > index.html
+    - rm -v index.html.orig
+    - rm -v songbook-sample.json
+    - cd ${CI_PROJECT_DIR}/workdir
+    - zip -r songbook-pwa.zip songbook-pwa
+
+    # Upload artifact songbook-pwa.zip
+    - 'curl -i --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file ${CI_PROJECT_DIR}/workdir/songbook-pwa.zip "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/songbook-pwa/${TAG}/songbook-pwa-${TAG}.zip"'
+    - 'curl -i --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file ${CI_PROJECT_DIR}/workdir/songbook-pwa.zip "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/songbook-pwa/latest/songbook-pwa.zip"'
