@@ -36,11 +36,11 @@ release:
 
     # Upload artifacts songbook.pdf
     - 'curl -i --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file ${CI_PROJECT_DIR}/workdir/songbook.pdf "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/songbook-pdf/${TAG}/songbook-${TAG}.pdf"'
-    - 'curl -i --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file ${CI_PROJECT_DIR}/workdir/songbook.pdf "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/songbook-pdf/latest/songbook-latest.pdf"'
+    - 'curl -i --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file ${CI_PROJECT_DIR}/workdir/songbook.pdf "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/songbook-pdf/latest/songbook.pdf"'
 
     # Upload artifacts songbook.json
     - 'curl -i --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file ${CI_PROJECT_DIR}/workdir/songbook.json "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/songbook-json/${TAG}/songbook-${TAG}.json"'
-    - 'curl -i --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file ${CI_PROJECT_DIR}/workdir/songbook.json "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/songbook-json/latest/songbook-latest.json"'
+    - 'curl -i --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file ${CI_PROJECT_DIR}/workdir/songbook.json "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/songbook-json/latest/songbook.json"'
 
     # Create PWA containing these songs
     - cd ${CI_PROJECT_DIR}/workdir
